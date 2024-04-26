@@ -12,9 +12,10 @@
       <table>
         <tr>
           <th>Preferred Label</th>
+          <td><xsl:value-of select="record/skos:concept/skos:prefLabel" xml:lang="eng"/></td>
         </tr>
         <tr>
-          <td><xsl:value-of select="record/skos:concept/skos:prefLabel" xml:lang="eng"/></td>
+          <td></td>
         </tr>
       </table>
     </body>
