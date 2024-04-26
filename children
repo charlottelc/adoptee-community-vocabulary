@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="vocab.xsl"?>
+<record
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/TR/2014/REC-rdf-schema-20140225/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <skos:Concept rdf:about="https://charlottelc.github.io/adoptee-community-vocabulary/children">
+      <dc:identifier>ZZW0004</dc:identifier>
+      <dc:issued type="xsd:date">2023-04-23</dc:issued>
+      <skos:prefLabel xml:lang="eng">Children</skos:prefLabel>
+      <skos:prefLabel xml:lang="chi">孩子</skos:prefLabel>
+      <skos:altLabel xml:lang="eng">Kids</skos:altLabel>
+      <skos:altLabel xml:lang="chi">Haizi</skos:altLabel>
+      <skos:altLabel xml:lang="chi">Hai zi</skos:altLabel>
+      <skos:altLabel xml:lang="chi">幼儿</skos:altLabel>
+      <skos:altLabel xml:lang="chi">You er</skos:altLabel>
+      <skos:altLabel xml:lang="chi">You'er</skos:altLabel>
+      <skos:altLabel xml:lang="eng">Child</skos:altLabel>
+      <skos:altLabel xml:lang="chi">Youer</skos:altLabel>
+      <skos:altLabel xml:lang="chi">小孩</skos:altLabel>
+      <skos:altLabel xml:lang="eng">Xiao hai</skos:altLabel>
+      <skos:altLabel xml:lang="chi">小孩子</skos:altLabel>
+      <skos:altLabel xml:lang="chi">Xiao haizi</skos:altLabel>
+      <skos:altLabel xml:lang="chi">Xiao hai zi</skos:altLabel>
+      <skos:related rdf:resource="http://www.example.com/Toddlers"/>
+      <skos:related rdf:resource="http://www.example.com/Adolescent"/>
+      <skos:scopeNote>A young person roughly between the ages of 4 and 12.</skos:scopeNote>
+    </skos:Concept>
+</record>
