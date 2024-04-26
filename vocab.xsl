@@ -15,6 +15,7 @@
           <td><xsl:value-of select="record/skos:concept/skos:prefLabel" xml:lang="eng"/></td>
         </tr>
         <tr>
+          <th></th>
           <td></td>
         </tr>
       </table>
