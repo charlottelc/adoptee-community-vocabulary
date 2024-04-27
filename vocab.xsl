@@ -15,8 +15,12 @@
           <td><xsl:value-of select="record/vocab/prefLabel"/></td>
         </tr>
         <tr>
-          <th></th>
-          <td></td>
+          <th>Alternate Label</th>
+          <td><xsl:value-of select="record/vocab/altLabel"/></td>
+        </tr>
+        <tr>
+          <th>Definition</th>
+          <td><xsl:value-of select="record/vocab/definition"/></td>
         </tr>
       </table>
     </body>
