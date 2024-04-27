@@ -24,6 +24,10 @@
           <th>Scope Note</th>
           <td><xsl:value-of select="record/vocab/scopeNote"/></td>
         </tr>
+        <tr>
+            <th>Identifier</th>
+            <td><xsl:value-of select="record/vocab/identifier"/></td>
+        </tr>
       </table>
     </body>
   </html>
