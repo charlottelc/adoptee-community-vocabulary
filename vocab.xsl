@@ -29,6 +29,9 @@
           <td><xsl:value-of select="record/vocab/issued"/></td>
         </tr>
       </table>
+    <div>
+      <button type="button">Back</button>
+    </div>
     </body>
   </html>
 </xsl:template>
