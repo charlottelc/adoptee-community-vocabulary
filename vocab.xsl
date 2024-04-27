@@ -19,8 +19,8 @@
           <td><xsl:value-of select="record/vocab/altLabel"/></td>
         </tr>
         <tr>
-          <th>Definition</th>
-          <td><xsl:value-of select="record/vocab/definition"/></td>
+          <th>Scope Note</th>
+          <td><xsl:value-of select="record/vocab/scopeNote"/></td>
         </tr>
       </table>
     </body>
