@@ -8,11 +8,11 @@
       <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
     </head>
     <body>
-      <h2><xsl:value-of select="record/skos:concept/skos:prefLabel" xml:lang="eng"/></h2>
+      <h2><xsl:value-of select="record/skos:Concept/skos:prefLabel" xml:lang="eng"/></h2>
       <table>
         <tr>
           <th>Preferred Label</th>
-          <td><xsl:value-of select="record/skos:concept/skos:prefLabel" xml:lang="eng"/></td>
+          <td><xsl:value-of select="record/skos:Concept/skos:prefLabel" xml:lang="eng"/></td>
         </tr>
         <tr>
           <th></th>
