@@ -6,7 +6,11 @@
       <issued type="xsd:date">2023-04-23</issued>
       <prefLabel xml:lang="eng">Children</prefLabel>
       <altLabel xml:lang="eng">Kids</altLabel>
+      <altLabel xml:lang="eng">Youth</altLabel>
       <altLabel xml:lang="chi">Haizi</altLabel>
+      <altLabel xml:lang="chi">孩子</altLabel>
+      <altLabel xml:lang="chi">Xiao hai</altLabel>
+      <altLabel xmllang="chi">小孩</altLabel>
       <scopeNote>A young person roughly between the ages of 4 and 12.</scopeNote>
     </vocab>
 </record>
