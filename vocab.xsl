@@ -37,7 +37,7 @@
   <xsl:template match="altLabel">
     <tr>
           <th>Alternate Label</th>
-          <td><xsl:value-of select="record/vocab/altLabel"/></td>
+          <td><xsl:value-of select="."/></td>
     </tr>
   </xsl:template>
   
