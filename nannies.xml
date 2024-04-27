@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vocab.xsl"?>
+<record>
+    <vocab>
+      <identifier>ZZW0001</identifier>
+      <issued type="xsd:date">2023-04-27</issued>
+      <prefLabel xml:lang="eng">Nannies</prefLabel>
+      <altLabel xml:;lang="eng">Caregivers</altLabel>
+      <altLabel xml:lang="chi">阿姨</altLabel>
+      <altLabel xml:lang="chi">Ayi</altLabel>
+      <altLabel xml:lang="chi">Baomu</altLabel>
+      <altLabel xml:lang="chi">保姆</altLabel>
+      <scopeNote>Social Welfare Institute employee, usually female, tasked with looking after SWI residents.</scopeNote>
+    </vocab>
+</record>
