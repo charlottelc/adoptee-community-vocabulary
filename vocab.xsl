@@ -24,6 +24,10 @@
             <th>Identifier</th>
             <td><xsl:value-of select="record/vocab/identifier"/></td>
         </tr>
+        <tr>
+          <th>Date Issued</th>
+          <td><xsl:value-of select="record/vocab/issued"/></td>
+        </tr>
       </table>
     </body>
   </html>
