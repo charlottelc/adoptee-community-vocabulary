@@ -14,10 +14,12 @@
           <th>Preferred Label</th>
           <td><xsl:value-of select="record/vocab/prefLabel"/></td>
         </tr>
+        <xsl:for-each select="record/vocab/altLabel"/>
         <tr>
           <th>Alternate Label</th>
-          <td><xsl:value-of select="record/vocab/altLabel"/></td>
+          <td><xsl:value-of select="."/></td>
         </tr>
+      </xsl:for-each>
         <tr>
           <th>Scope Note</th>
           <td><xsl:value-of select="record/vocab/scopeNote"/></td>
