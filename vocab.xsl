@@ -9,7 +9,10 @@
       <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
     </head>
     <body>
+      <div>
       <h2><xsl:value-of select="record/vocab/prefLabel"/></h2>
+      </div>
+      <div>
       <table>
         <tr>
           <th>Preferred Label</th>
@@ -29,6 +32,7 @@
           <td><xsl:value-of select="record/vocab/issued"/></td>
         </tr>
       </table>
+      </div>
     <div>
       <button type="button">Back</button>
     </div>
