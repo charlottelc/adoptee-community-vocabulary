@@ -34,7 +34,7 @@
       </table>
       </div>
     <div>
-      <button type="button">Back</button>
+      <a href="index.html" class="button">Back</a>
     </div>
     </body>
   </html>
