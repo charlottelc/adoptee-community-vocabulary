@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- root and static content -->
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
@@ -33,6 +34,7 @@
     <tr>
           <th>Alternate Label</th>
           <td><xsl:value-of select="record/vocab/altLabel"/></td>
-        </tr>
+    </tr>
   </xsl:template>
+  
 </xsl:stylesheet>
