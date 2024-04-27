@@ -27,4 +27,12 @@
     </body>
   </html>
 </xsl:template>
+
+<!-- iteration: altLabel -->
+  <xsl:template match="altLabel>
+    <tr>
+          <th>Alternate Label</th>
+          <td><xsl:value-of select="record/vocab/altLabel"/></td>
+        </tr>
+  </xsl:template>
 </xsl:stylesheet>
