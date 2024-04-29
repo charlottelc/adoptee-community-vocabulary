@@ -36,6 +36,7 @@ a.button {
   color: black;
   text-align: center;
   display: inline-block;
+  padding: 16px 32px;
   font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer; 
