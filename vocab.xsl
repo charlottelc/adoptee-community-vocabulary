@@ -33,7 +33,7 @@
         </tr>
       </table>
       </div>
-    <div>
+    <div class="button">
       <a href="index.html" class="button">Back</a>
     </div>
     </body>
